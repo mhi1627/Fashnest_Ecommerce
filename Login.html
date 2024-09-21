@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashNest|Account</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            .container {
+                width: 30vw;
+                height: 30vw;
+                background: #fff;
+                padding: 2rem;
+                color: #000;
+                position: absolute;
+                right: 35%;
+                top: 25%;
+                color: white;
+                border-radius: 10px;
+                background: #111;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+               
+            }
+
+            span {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+
+            input {
+                width: 23vw;
+                height: 5vh;
+                font-size: 1.1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            label {
+                font-size: 1.2rem;
+                color: #ffdc00;
+            }
+
+            button {
+                width: 100%;
+                height: 5vh;
+                margin: 1.5vw;
+                font-size: 1.1rem;
+                background: #000;
+                color: #fff;
+                border: none;
+                border-radius: 10px;
+            }
+
+            button:hover {
+                background: #ffdc00;
+                color: #000;
+                transition: 1s all;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/Logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="Index.htm" class="active">Home</a></li>
+            <li><a href="trending.html">Trending</a></li>
+            <li><a href="popular.html">Popular</a></li>
+            <li><a href="featured.html">Featured</a></li>
+            <li class="Services"><a href="#">Services</a>
+                 <ul class="drop-down ">
+                    <a href="#"><li> &nbsp; Orders</li></a>
+                    <a href="#"><li> &nbsp; Contact Us</li></a>
+                    <a href="#"><li> &nbsp; Help</li></a>
+                 </ul>
+            </li>
+           
+        </ul>
+        
+        <div class="icons">
+      
+            
+                <i class="ri-search-line" id="search-icon"><p class="search">Search</p></i>
+            <div class="search-container" id="search-container">
+                <input type="text" id="search-input" placeholder="Search...">
+            </div>
+            <div class="profile icons"><i class="ri-user-line" class=""><p>Profile</p></i>
+                <div class="account">
+                    <p>Welcome, <br> To access account please</p>
+                    <br>
+                    <a href="#" class="login">Login/Sign UP </a>
+                </div></div>
+           
+            <i class="ri-heart-3-line"><p>Wishlist</p></i>
+            <i class="ri-shopping-bag-line"><p>Bag</p></i>
+        </div>
+        
+        
+    </nav> 
+
+        <div class="container">
+            <span>Hi! <br>Please Login To Access Your Account</span>
+           <div class="email"><label for="email">Email :</label>
+            <input type="email" name="email" id="" required></div> 
+            <div class="password"><label for="password">Password :</label> <input type="password" name="password" id="" required></div>
+            <button class="sign" >Login/Sign Up</button>
+            <p>By Sign in you are accepting the <a href="">terms and conditions</a></p>
+        </div>
+            
+            
+            
+</body>
+</html>
